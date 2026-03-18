@@ -2,6 +2,8 @@
 
 Repositório com exercícios organizados em arquivos separados para facilitar estudo e apresentação.
 
+Repositório publicado: https://github.com/IsaacMib/atividade-git
+
 - Versão Python: 12 exercícios
 - Versão Java: 12 exercícios
 
