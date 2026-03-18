@@ -5,19 +5,14 @@ def calcular_estatisticas(numeros):
     return maior, menor, soma_total
 
 
-def main():
-    numeros = []
+numeros = []
 
-    for i in range(1, 6):
-        numero = float(input(f"Digite o {i}º número: "))
-        numeros.append(numero)
+for i in range(1, 6):
+    numero = float(input(f"Digite o {i}º número: "))
+    numeros.append(numero)
 
-    maior, menor, soma_total = calcular_estatisticas(numeros)
+maior, menor, soma_total = calcular_estatisticas(numeros)
 
-    print(f"Maior valor: {maior}")
-    print(f"Menor valor: {menor}")
-    print(f"Soma total: {soma_total}")
-
-
-if __name__ == "__main__":
-    main()
+print(f"Maior valor: {maior}")
+print(f"Menor valor: {menor}")
+print(f"Soma total: {soma_total}")

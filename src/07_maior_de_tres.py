@@ -1,14 +1,9 @@
-def main():
-    n1 = float(input("Digite o primeiro número: "))
-    n2 = float(input("Digite o segundo número: "))
-    n3 = float(input("Digite o terceiro número: "))
+n1 = float(input("Digite o primeiro número: "))
+n2 = float(input("Digite o segundo número: "))
+n3 = float(input("Digite o terceiro número: "))
 
-    maior = max(n1, n2, n3)
-    menor = min(n1, n2, n3)
+maior = max(n1, n2, n3)
+menor = min(n1, n2, n3)
 
-    print(f"Maior valor: {maior}")
-    print(f"Menor valor: {menor}")
-
-
-if __name__ == "__main__":
-    main()
+print(f"Maior valor: {maior}")
+print(f"Menor valor: {menor}")
